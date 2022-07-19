@@ -7,6 +7,11 @@ div.herobingkaibottom {
 	box-shadow: 0 0 51px 105px white;
 }
 
+html{
+	max-width: 1600px;
+	margin: auto;
+}
+
 #popup-activity{
 	background-color: rgba(0, 0, 0, 0.3);
 }
@@ -24,5 +29,5 @@ div.herobingkaibottom {
 /* The element to apply the animation to */
 #popup-activity{
   animation-name: animateShowPopup;
-  animation-duration: 2s;
+  animation-duration: 0s;
 }

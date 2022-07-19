@@ -2,86 +2,86 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Puncak Wangun</title>
 </head>
-<body>
-	<div id="popup-activity" class="fixed w-full h-screen flex z-20 p-8 hidden">
-		<div class="w-[90%] md:w-[30%] h-[80%] m-auto rounded-3xl flex flex-col">
+<body class="max-w-[1920px] m-auto">
+	<div id="popup-activity" class="fixed w-full h-screen max-w-[1600px] flex z-20 p-8 hidden">
+		<div class="w-[90%] md:w-[30%] h-auto m-auto rounded-3xl flex flex-col">
 		</div>
 	</div>
 	<header class="w-full h-auto flex flex-col md:flex-row  p-8 bg-white z-10 relative">
-		<img src="assest/logo.png" class="w-[192px] h-[60px]">
+		<img src="assest/logo.png" class="w-[192px] h-[60px] m-auto md:m-[0] my-4">
 		<ul class="ml-auto mt-2 md:my-auto text-[#0b453c] w-full md:w-[30%] h-full flex">
-			<a href="#hero" class="m-auto font-semibold">Beranda</a>
+			<a href="#history" class="m-auto font-semibold">Beranda</a>
 			<a href="#article" class="m-auto font-semibold">Artikel</a>
 			<a href="#activity" class="m-auto font-semibold">Jadwal</a>
 		</ul>
 	</header>
 	<section id="hero" class="w-full h-auto flex flex-col relative">
-		<h1 class="text-xl md:text-3xl lg:text-6xl font-bold text-[#0b453c] text-center px-[25%] py-6 z-10 bg-white">Desa wisaya budaya Puncak Wangun </h1>
+		<h1 class="text-xl md:text-3xl lg:text-6xl font-bold text-[#0b453c] text-center md:px-[25%] px-[10%] py-6 z-10 bg-white">Desa wisaya budaya Puncak Wangun </h1>
 		<div class="relative top-12 lg:top-0">
 			<img src="assest/herobingkai.png" class="absolute z-10">
 			<img src="assest/img_hero.jpg" class="lg:mt-[-168px] z-0">
-			<div class="absolute w-full h-full z-10 top-0 flex">
-				<a href="#" class="bg-yellow-500 mx-auto mt-[45%]  h-[60px] flex p-2 rounded-3xl"><p class="my-auto mx-[20px] text-white font-bold">Tonton Video ini</p> <img src="assest/button-play.png" class="w-1/6 h-full my-auto mx-[20px]"></a>
+			<div class="absolute w-full h-full z-20 top-0 flex">
+				<a href="https://www.instagram.com/reel/CgO9OI7FJGR/?igshid=YmMyMTA2M2Y=" target="_blank" class="bg-yellow-500 mx-auto w-[38%] md:w-auto h-[40px] mt-[45%] md:h-[60px] flex p-2 rounded-3xl"><p class="my-auto md:mx-[20px] text-white font-bold text-xs md:text-lg">Tonton Video ini</p> <img src="assest/button-play.png" class="w-1/6 h-auto my-auto md:mx-[20px] m-auto"></a>
 			</div>
 			<img src="assest/shadowputih.png" class="absolute w-full z-10 bottom-0">
 			<!-- <div class="herobingkaibottom bg-white w-full h-[50px] absolute z-10 bottom-[29px] "></div> -->
 		</div>
 	</section>
-	<section id="sosial-media" class="w-full h-auto mt-[60px] mb-[150px]">
+	<section id="sosial-media" class="w-full h-auto mt-[60px] md:mb-[150px]">
 		<ul class="flex sm:px-[30%] h-full">
 			<a href="mailto: kampungbudayawangun@gmail.com" class="m-auto bg-gray-300 w-[15%] h-[15%] rounded-[100%]">
-				<img src="assest/mail.png">
+				<img src="assest/mail.png" style="filter:invert(100%);">
 			</a>
-			<a href="https://wa.me/+6282120413160" target="_blank" class="m-auto bg-gray-300 w-[15%] h-[15%] rounded-[100%]">
-				<img src="assest/whatsapp.png">
+			<a href="https://wa.me/+6282120236895" target="_blank" class="m-auto bg-gray-300 w-[15%] h-[15%] rounded-[100%]">
+				<img src="assest/whatsapp.png" style="filter:invert(100%);">
 			</a>
 			<a href="https://www.instagram.com/wisatabudayapuncakwangun/" target="_blank" class="m-auto bg-gray-300 w-[15%] h-[15%] rounded-[100%]">
-				<img src="assest/instagram.png">
+				<img src="assest/instagram.png" style="filter:invert(100%);">
 			</a>
 		</ul>
 	</section>
 	<main class="flex flex-col md:flex-row w-full h-auto px-[5%] my-4">
 		<div class="w-full md:w-2/4 md:border-y-4 md:border-r-2">
-			<section id="history" class=" w-full flex flex-col my-8 p-4 md:border-b-4">
+			<section id="history" class=" w-full flex flex-col my-8 pt-4 md:pr-14 pb-12 md:border-b-4">
 				<h2 class="p-2 uppercase text-2xl lg:text-3xl bg-yellow-500 text-[#0b453c] font-semibold w-full lg:w-3/4 text-center rounded-3xl">Sejarah Wangun</h2>
 				<article class="text-lg lg:text-xl text-justify py-4 indent-12 ">
 					Pada tahun 1920 masa penjajahan Belanda di Indonesia tengah berlangsung, sepasang suami isteri mengumbara ke tempat-tempat untuk dijadikan sebagai tempat tinggal. Suami isteri tersebut sampai sekarang dikenal sebagai 'Mbah Uyut'. Mereka mengawali kehidupan di sebuah kampung yang mereka namai Tegalan, Membangun sebuah tempat tinggal yang dalam bahasa sunda disebut 'Sasaungan', membuat parit air yang berasal dari Ciganola yang merupakan sumber mata air terdekat, dan mereka membuat petakan-petakan tanah untuk ditanami tumbuhan sumber makanan seperti beras Agogo (beras merah yang padinya besar-besar), singkong, ganyong dan gandrung. Pada saat itu mereka memulai kehidupan yang baru hidup di tengah hutan dekat kaki Gunung Puntang. Lalu keturunan dari sepasang suami isteri ini mengikuti melanjutkan hidup di Tegalan yaitu Mbah Jumara dan anaknya. Mbah Uyut tinggal di bagian Barat dan Mbah Jumara di Bagian Timur. Waktupun terus berjalan sampai jumlah penduduk semakin bertambah karena kedatangan pendatang baru.
 				</article>
-				<ul class="grid grid-cols-3 grid-rows-2 h-[600px] gap-2 mb-8">
-					<li class="bg-gray-200 col-span-3 ">
-						<img src="assest/sejarah_2.jpg" class="w-full h-full">
+				<ul class="grid grid-cols-5 grid-rows-5 min-h-max max-h-[700px] gap-2 mb-8">
+					<li class="bg-gray-200 col-span-5 row-span-3 ">
+						<img src="assest/sejarah_3.jpg" class="w-full h-full object-cover ">
 					</li>
-					<li class="bg-gray-200 col-span-2">
-						<img src="assest/sejarah_1.jpg" class="w-full h-full">
+					<li class="bg-gray-200 col-span-3 row-span-2">
+						<img src="assest/sejarah_1.jpg" class="w-full h-full object-cover ">
 					</li>
-					<li class="bg-gray-200">
-						<img src="assest/sejarah_3.jpg" class="w-full h-full">
+					<li class="bg-gray-200 col-span-2 row-span-2">
+						<img src="assest/sejarah_2.jpg" class="w-full h-full object-cover  ">
 					</li>
 				</ul>
 			</section>
 			<section id="kegiatan" class=" w-full flex flex-col my-8 p-4">
 				<h2 class="p-2 uppercase text-2xl md:text-3xl bg-yellow-500 text-[#0b453c] font-semibold w-full md:w-3/4 text-center rounded-3xl">Kegiatan Warga</h2>
 				<div class="item-kegiatan">
-					<ul class="grid grid-cols-3 grid-rows-2 h-[300px] pt-10 md:pr-12 gap-1">
-						<li class="bg-gray-200 col-span-1 ">
+					<ul class="grid grid-cols-3 grid-rows-5 min-h-max max-h-[400px] pt-10 md:pr-12 ">
+						<li class="bg-gray-200 col-span-1 row-span-2 ">
 							<img src="assest/kegiatan_warga/gotong_royong/(3).jpg" class="w-full h-full">
 						</li>
-						<li class="bg-gray-200 col-span-2 row-span-2">
+						<li class="bg-gray-200 col-span-2 row-span-5">
 							<img src="assest/kegiatan_warga/gotong_royong/(2).jpg" class="w-full h-full">
 						</li>
-						<li class="bg-gray-200 col-span-1">
+						<li class="bg-gray-200 col-span-1 row-span-3">
 							<img src="assest/kegiatan_warga/gotong_royong/(1).jpg" class="w-full h-full">
 						</li>
 					</ul>
 					<h3 class="w-full text-center font-semibold uppercase text-[#0b453c] mt-4">Gotong Royong</h3>
 				</div>
 				<div class="item-kegiatan">
-					<ul class="grid grid-cols-6 grid-rows-2 h-[300px] pt-10 md:pr-12 gap-1">
+					<ul class="grid grid-cols-6 grid-rows-2 min-h-max max-h-[400px] pt-10 md:pr-12 ">
 						<li class="bg-gray-200 col-span-2 ">
 							<img src="assest/kegiatan_warga/bertani/(3).jpg" class="w-full h-full">
 						</li>
@@ -104,7 +104,7 @@
 					<h3 class="w-full text-center font-semibold uppercase text-[#0b453c] mt-4">Bertani</h3>
 				</div>
 				<div class="item-kegiatan">
-					<ul class="grid grid-cols-5 grid-rows-2 h-[300px] pt-10 md:pr-12 gap-1">
+					<ul class="grid grid-cols-5 grid-rows-2 min-h-max max-h-[400px] pt-10 md:pr-12 ">
 						<li class="bg-gray-200 col-span-2 ">
 							<img src="assest/kegiatan_warga/mengolah_kopi/(2).jpg" class="w-full h-full">
 						</li>
@@ -129,34 +129,34 @@
 			</section>
 		</div>
 		<div class="w-full md:w-2/4  border-y-4 md:border-l-2">
-			<section id="article" class=" w-full flex flex-col my-8 p-4 pl-12 border-b-4">
-				<h2 class="p-2 uppercase text-2xl md:text-3xl bg-[#0b453c] text-yellow-500 font-semibold w-2/4 text-center rounded-3xl">Artikel</h2>
+			<section id="article" class=" w-full flex flex-col my-8 p-4 md:pl-12 border-b-4">
+				<h2 class="p-2 uppercase text-2xl md:text-3xl bg-[#0b453c] text-yellow-500 font-semibold w-full md:w-2/4 text-center rounded-3xl">Artikel</h2>
 				<ul>
-					<li class="flex my-8 min-h-[125px]">
-						<img src="assest/artikel/artikel_1.jpg" class="w-[30%] h-[125px]">
-						<div class="px-2 w-[70%] h-full">
+					<li class="flex md:flex-row flex-col my-8 min-h-[125px]">
+						<img src="assest/artikel/artikel_1.jpg" class=" w-full md:w-[30%] h-[250px] min-h-max max-h-min md:h-[125px]">
+						<div class="px-2 w-full md:w-[70%] h-full">
 							<a href="https://pasirmulya.desa.id/artikel/2018/10/30/kampung-wangun-kampung-wisata-budaya" target="_blank" class="text-lg font-semibold text-[#0b453c]">Desa Wisata Budaya Puncak Wangun</a>
 							<article class="text-justify text-ellipsis overflow-hidden text-sm text-[#0b453c]">Salah satu lokus (Lokasi Khusus) Desa wisata budaya, yakni kampung Wangun Desa Pairmulya Kecamatan Banjaran Kabupaten Bandung, menjadi Perhatian banyak pihak setelah Kepala Desa Pasirmulya RUKMA SUPRIADI bersama BKM Desa menata kampung. <a href="https://pasirmulya.desa.id/artikel/2018/10/30/kampung-wangun-kampung-wisata-budaya" target="_blank" class="italic trancute text-blue-500">Lihat lebih detail.</a></article>
 						</div>
 					</li>
-					<li class="flex my-8 min-h-[125px]">
-						<img src="assest/artikel/artikel_3.jpeg" class="w-[30%] h-[125px]">
-						<div class="px-2 w-[70%] h-full">
+					<li class="flex md:flex-row flex-col my-8 min-h-[125px]">
+						<img src="assest/artikel/artikel_3.jpeg" class=" w-full md:w-[30%] h-[250px] min-h-max max-h-min md:h-[125px]">
+						<div class="px-2 w-full md:w-[70%] h-full">
 							<a href="https://www.idisionline.com/2021/08/03/wisata-puncak-wangun-dalam-tahappembangunan/" target="_blank" class="text-lg font-semibold text-[#0b453c]">Desa Wisata Budaya Puncak Wangun Dalam Tahap Pembangunan</a>
 							<article class="text-justify text-ellipsis overflow-hidden text-sm text-[#0b453c]">Modusinvestigasi.Online, Kab. Bandung - Desa Pasir Mulya merupakan desa termuda yang berada di wilayah kecamatan Banjaran, kabupaten Bandung, dimana mayoritas penduduknya sebagian besar petani, buruh tani serta pekerja bangunan, dan sebagian. <a href="https://www.idisionline.com/2021/08/03/wisata-puncak-wangun-dalam-tahappembangunan/" target="_blank" class="italic trancute text-blue-500">Lihat lebih detail.</a></article>
 						</div>
 					</li>
-					<li class="flex my-8 min-h-[125px]">
-						<img src="assest/artikel/artikel_2.jpeg" class="w-[30%] h-[125px]">
-						<div class="px-2 w-[70%] h-full">
+					<li class="flex md:flex-row flex-col my-8 min-h-[125px]">
+						<img src="assest/artikel/artikel_2.jpeg" class=" w-full md:w-[30%] h-[250px] min-h-max max-h-min md:h-[125px]">
+						<div class="px-2 w-full md:w-[70%] h-full">
 							<a href="https://jurnalpolisi.co.id/2020/08/25/kampung-wisata-budaya-desa-pasirmulya-banjaran-kab-bandung/" target="_blank" class="text-lg font-semibold text-[#0b453c]">"Kampung Wisaya Budaya" Desa Pasirmulya Banjaran Kab Bandung.</a>
 							<article class="text-justify text-ellipsis overflow-hidden text-sm text-[#0b453c]">JP.Kab.Bdg Kampung Wangun berdiri dilahan yang merupakan aset Desa Pasirmulya Kec.Banjaran, yang berdampingan dengan area Perhutani wilayah Banjaran, yang sering dijadikan tempat wisata masyarakat baik lokal/luar wilayah yaitu Puncak mega. <a href="https://jurnalpolisi.co.id/2020/08/25/kampung-wisata-budaya-desa-pasirmulya-banjaran-kab-bandung/" target="_blank" class="italic trancute text-blue-500">Lihat lebih detail.</a></article>
 						</div>
 					</li>
 				</ul>
 			</section>
-			<section id="potensi" class=" w-full flex flex-col my-8 p-4 pl-12">
-				<h2 class="p-2 uppercase text-2xl md:text-3xl bg-[#0b453c] text-yellow-500 font-semibold w-2/4 text-center rounded-3xl">Potensi</h2>
+			<section id="potensi" class=" w-full flex flex-col my-8 p-4 md:pl-12">
+				<h2 class="p-2 uppercase text-2xl md:text-3xl bg-[#0b453c] text-yellow-500 font-semibold w-full md:w-2/4 text-center rounded-3xl">Potensi</h2>
 				<article class="text-lg md:text-xl text-justify py-4 indent-12 ">
 					<p>
 					Desa wisata budaya Puncak Wangun merupakan wisata berbasis budaya dan alam. potensi yang dimiliki yaitu hamparan pemandangan yang indah, sejuk serta nyaman, rumah-rumah panggung yang seragam, serta hutan pinus. 
@@ -171,7 +171,7 @@
 					Selain kesenian, potensi budaya yang dimiliki Desa wisata budaya Puncak Wangun yaitu perilaku masyarakat akan hidup bersih dan sehat, sopan santun, serta gotong royong. Dengan lingkungan yang bersih, sejuk, serta sehat menjadikan para wisatawan merasakan kenyamanan.	
 					</p>
 				</article>
-				<div class="potensi-image w-full h-[400px] bg-gray-200 flex flex-warp relative">
+				<div class="potensi-image w-full h-[400px] max-h-[400px] bg-gray-200 flex flex-warp relative">
 					<button class="left absolute z-10 top-0 bottom-0 left-2">
 						<img src="assest/arrow-left.png" class="w-[50px] h-[50px]">
 					</button>
@@ -184,23 +184,23 @@
 		</div>
 	</main>
 	<section id="activity" class="px-[10%] flex flex-col py-[7%] border-b-4">
-		<h1 class="text-6xl md:w-[20%] text-[#0b453c] font-bold">Bulan ini <span class="text-yellow-500">ada apa?</span></h1>
-		<ul class="grid grid-cols-2 grid-rows-6 md:grid-cols-3 md:grid-rows-4 m-auto w-full pt-8 md:pt-0 md:w-[79%] h-[70em] text-center gap-3">
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">Januari</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">Februari</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">Maret</button>
+		<h1 class="text-6xl md:text-7xl md:w-[24%] text-[#0b453c] font-bold">Bulan ini <span class="text-yellow-500">ada apa?</span></h1>
+		<ul class="grid grid-cols-2 grid-rows-6 md:grid-cols-3 md:grid-rows-4 m-auto w-full px-[3%] py-[7%] md:w-[79%] h-[1300px] max-h-min min-h-max text-center gap-8">
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">Januari</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">Februari</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">Maret</button>
 
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">April</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">Mei</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">Juni</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">April</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">Mei</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">Juni</button>
 
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">Juli</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">Agustus</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">September</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">Juli</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">Agustus</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">September</button>
 
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">Oktober</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-yellow-500 text-[#0b453c]">November</button>
-			<button class="btn-activity font-bold text-2xl rounded-3xl bg-[#0b453c] text-yellow-500">Desember</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">Oktober</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-yellow-500 text-[#0b453c] w-full h-full max-h-min min-h-max">November</button>
+			<button class="btn-activity font-bold text-xl md:text-2xl rounded-[20%] bg-[#0b453c] text-yellow-500 w-full h-full max-h-min min-h-max">Desember</button>
 		</ul>
 	</section>
 	<section id="location" class="px-[8%] mt-8 flex flex-col">
