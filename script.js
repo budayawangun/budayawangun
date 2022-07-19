@@ -1,7 +1,7 @@
 const swapingImageInPotensi = {
 	init(){
 		this.index = 1;
-		this.maxImage = 16;
+		this.maxImage = 17;
 		this.elementParent = document.querySelector(".potensi-image div");
 		this.elementBtnLeft = document.querySelector('.potensi-image button.left')
 		this.elementBtnRight = document.querySelector('.potensi-image button.right')
