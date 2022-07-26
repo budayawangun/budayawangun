@@ -7,6 +7,10 @@ div.herobingkaibottom {
 	box-shadow: 0 0 51px 105px white;
 }
 
+body{
+	background-color: #0B453C;
+}
+
 html{
 	max-width: 1600px;
 	margin: auto;
