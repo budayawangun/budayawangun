@@ -46,7 +46,7 @@ const showPopupActivity = {
 			console.log(allBtn[i])
 			allBtn[i].addEventListener('click',(e)=>{
 				const template = `
-					<img src="assest/aktivitas/${e.target.innerText}.png" data-src="assest/instagram.png" class="w-full h-full">`;
+					<img src="assest/aktivitas/${e.target.innerText}.png" data-src="assest/instagram.png" class="w-full h-full m-auto">`;
 				const popup = document.querySelector('#popup-activity');
 				popup.querySelector('div').innerHTML = template;
 				popup.classList.toggle('hidden');
